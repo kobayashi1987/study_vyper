@@ -1,0 +1,426 @@
+{
+  "compilers": [
+    {
+      "contractTypes": [
+        "simple_storage"
+      ],
+      "name": "vyper",
+      "settings": {
+        "enable_decimals": false,
+        "optimize": "gas",
+        "outputSelection": {
+          "simple_storage.vy": [
+            "*"
+          ]
+        },
+        "search_paths": [
+          "/Users/jack/Desktop/project/cursor/smart_contract/project01/myenv/lib/python3.13/site-packages",
+          "."
+        ]
+      },
+      "version": "0.4.1"
+    }
+  ],
+  "contractTypes": {
+    "simple_storage": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "name": "num",
+              "type": "uint256"
+            }
+          ],
+          "name": "store",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "retrieve",
+          "outputs": [
+            {
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        }
+      ],
+      "ast": {
+        "ast_type": "Module",
+        "children": [
+          {
+            "ast_type": "VariableDecl",
+            "children": [
+              {
+                "ast_type": "Name",
+                "children": [],
+                "classification": 1,
+                "col_offset": 5,
+                "end_col_offset": 12,
+                "end_lineno": 3,
+                "lineno": 3,
+                "src": {
+                  "jump_code": "",
+                  "length": 7,
+                  "start": 23
+                }
+              },
+              {
+                "ast_type": "Name",
+                "children": [],
+                "classification": 1,
+                "col_offset": 0,
+                "end_col_offset": 3,
+                "end_lineno": 3,
+                "lineno": 3,
+                "src": {
+                  "jump_code": "",
+                  "length": 3,
+                  "start": 18
+                }
+              }
+            ],
+            "classification": 0,
+            "col_offset": 0,
+            "end_col_offset": 12,
+            "end_lineno": 3,
+            "lineno": 3,
+            "src": {
+              "jump_code": "",
+              "length": 12,
+              "start": 18
+            }
+          },
+          {
+            "ast_type": "FunctionDef",
+            "children": [
+              {
+                "ast_type": "Assign",
+                "children": [
+                  {
+                    "ast_type": "Attribute",
+                    "children": [
+                      {
+                        "ast_type": "Name",
+                        "children": [],
+                        "classification": 1,
+                        "col_offset": 4,
+                        "end_col_offset": 8,
+                        "end_lineno": 7,
+                        "lineno": 7,
+                        "src": {
+                          "jump_code": "",
+                          "length": 4,
+                          "start": 71
+                        }
+                      }
+                    ],
+                    "classification": 0,
+                    "col_offset": 4,
+                    "end_col_offset": 12,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "src": {
+                      "jump_code": "",
+                      "length": 8,
+                      "start": 71
+                    }
+                  },
+                  {
+                    "ast_type": "Name",
+                    "children": [],
+                    "classification": 1,
+                    "col_offset": 15,
+                    "end_col_offset": 18,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "src": {
+                      "jump_code": "",
+                      "length": 3,
+                      "start": 82
+                    }
+                  }
+                ],
+                "classification": 0,
+                "col_offset": 4,
+                "end_col_offset": 18,
+                "end_lineno": 7,
+                "lineno": 7,
+                "src": {
+                  "jump_code": "",
+                  "length": 14,
+                  "start": 71
+                }
+              },
+              {
+                "ast_type": "arguments",
+                "children": [
+                  {
+                    "ast_type": "arg",
+                    "children": [
+                      {
+                        "ast_type": "Name",
+                        "children": [],
+                        "classification": 1,
+                        "col_offset": 15,
+                        "end_col_offset": 22,
+                        "end_lineno": 6,
+                        "lineno": 6,
+                        "src": {
+                          "jump_code": "",
+                          "length": 7,
+                          "start": 57
+                        }
+                      }
+                    ],
+                    "classification": 0,
+                    "col_offset": 10,
+                    "end_col_offset": 22,
+                    "end_lineno": 6,
+                    "lineno": 6,
+                    "src": {
+                      "jump_code": "",
+                      "length": 12,
+                      "start": 52
+                    }
+                  }
+                ],
+                "classification": 1,
+                "col_offset": 0,
+                "end_col_offset": 18,
+                "end_lineno": 7,
+                "lineno": 6,
+                "src": {
+                  "jump_code": "",
+                  "length": 43,
+                  "start": 42
+                }
+              },
+              {
+                "ast_type": "Name",
+                "children": [],
+                "classification": 1,
+                "col_offset": 1,
+                "end_col_offset": 9,
+                "end_lineno": 5,
+                "lineno": 5,
+                "src": {
+                  "jump_code": "",
+                  "length": 8,
+                  "start": 33
+                }
+              }
+            ],
+            "classification": 1,
+            "col_offset": 0,
+            "end_col_offset": 18,
+            "end_lineno": 7,
+            "lineno": 6,
+            "name": "store",
+            "src": {
+              "jump_code": "",
+              "length": 43,
+              "start": 42
+            }
+          },
+          {
+            "ast_type": "FunctionDef",
+            "children": [
+              {
+                "ast_type": "Return",
+                "children": [
+                  {
+                    "ast_type": "Attribute",
+                    "children": [
+                      {
+                        "ast_type": "Name",
+                        "children": [],
+                        "classification": 1,
+                        "col_offset": 11,
+                        "end_col_offset": 15,
+                        "end_lineno": 11,
+                        "lineno": 11,
+                        "src": {
+                          "jump_code": "",
+                          "length": 4,
+                          "start": 135
+                        }
+                      }
+                    ],
+                    "classification": 0,
+                    "col_offset": 11,
+                    "end_col_offset": 19,
+                    "end_lineno": 11,
+                    "lineno": 11,
+                    "src": {
+                      "jump_code": "",
+                      "length": 8,
+                      "start": 135
+                    }
+                  }
+                ],
+                "classification": 0,
+                "col_offset": 4,
+                "end_col_offset": 19,
+                "end_lineno": 11,
+                "lineno": 11,
+                "src": {
+                  "jump_code": "",
+                  "length": 15,
+                  "start": 128
+                }
+              },
+              {
+                "ast_type": "arguments",
+                "children": [],
+                "classification": 1,
+                "col_offset": 0,
+                "end_col_offset": 19,
+                "end_lineno": 11,
+                "lineno": 10,
+                "src": {
+                  "jump_code": "",
+                  "length": 46,
+                  "start": 97
+                }
+              },
+              {
+                "ast_type": "Name",
+                "children": [],
+                "classification": 1,
+                "col_offset": 18,
+                "end_col_offset": 25,
+                "end_lineno": 10,
+                "lineno": 10,
+                "src": {
+                  "jump_code": "",
+                  "length": 7,
+                  "start": 115
+                }
+              },
+              {
+                "ast_type": "Name",
+                "children": [],
+                "classification": 1,
+                "col_offset": 1,
+                "end_col_offset": 9,
+                "end_lineno": 9,
+                "lineno": 9,
+                "src": {
+                  "jump_code": "",
+                  "length": 8,
+                  "start": 88
+                }
+              }
+            ],
+            "classification": 1,
+            "col_offset": 0,
+            "end_col_offset": 19,
+            "end_lineno": 11,
+            "lineno": 10,
+            "name": "retrieve",
+            "src": {
+              "jump_code": "",
+              "length": 46,
+              "start": 97
+            }
+          }
+        ],
+        "classification": 0,
+        "col_offset": 0,
+        "end_col_offset": 19,
+        "end_lineno": 11,
+        "lineno": 1,
+        "src": {
+          "jump_code": "",
+          "length": 143
+        }
+      },
+      "contractName": "simple_storage",
+      "deploymentBytecode": {
+        "bytecode": "0x61004361000f6000396100436000f35f3560e01c636057361d81186100205760243610341761003f576004355f55005b632e64cec1811861003b573461003f575f5460405260206040f35b5f5ffd5b5f80fd85582045bf426a5b7dfbc7ede9dc6554207296c9d8264f6fd3ad633e568722320ce3fa18438000a1657679706572830004010034"
+      },
+      "dev_messages": {},
+      "devdoc": {},
+      "methodIdentifiers": {
+        "retrieve()": "0x2e64cec1",
+        "store(uint256)": "0x6057361d"
+      },
+      "pcmap": {
+        "0": {
+          "location": [
+            1,
+            0,
+            11,
+            19
+          ]
+        },
+        "41": {
+          "location": [
+            7,
+            15,
+            7,
+            18
+          ]
+        },
+        "44": {
+          "location": [
+            7,
+            4,
+            7,
+            12
+          ]
+        },
+        "46": {
+          "location": [
+            6,
+            0,
+            7,
+            18
+          ]
+        },
+        "64": {
+          "location": [
+            11,
+            11,
+            11,
+            19
+          ]
+        },
+        "71": {
+          "location": [
+            10,
+            0,
+            11,
+            19
+          ]
+        },
+        "73": {
+          "location": [
+            10,
+            0,
+            11,
+            19
+          ]
+        }
+      },
+      "runtimeBytecode": {
+        "bytecode": "0x5f3560e01c636057361d81186100205760243610341761003f576004355f55005b632e64cec1811861003b573461003f575f5460405260206040f35b5f5ffd5b5f80fd"
+      },
+      "sourceId": "simple_storage.vy",
+      "sourcemap": "{\"breakpoints\": [], \"error_map\": {\"31\": \"bad calldatasize or callvalue\", \"33\": \"bad calldatasize or callvalue\", \"34\": \"bad calldatasize or callvalue\", \"35\": \"bad calldatasize or callvalue\", \"36\": \"bad calldatasize or callvalue\", \"37\": \"bad calldatasize or callvalue\", \"40\": \"bad calldatasize or callvalue\", \"59\": \"bad calldatasize or callvalue\", \"60\": \"bad calldatasize or callvalue\", \"63\": \"bad calldatasize or callvalue\", \"75\": \"fallback function\", \"76\": \"fallback function\", \"77\": \"fallback function\"}, \"pc_breakpoints\": [], \"pc_jump_map\": {\"0\": \"-\", \"15\": \"-\", \"30\": \"-\", \"40\": \"-\", \"47\": \"-\", \"58\": \"-\", \"63\": \"-\", \"74\": \"-\", \"78\": \"-\"}, \"pc_pos_map_compressed\": \"0:143:0:-;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1:-;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1:-;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1:-;82:3:0;-1:-1:-1;-1:-1:-1;71:8:0;-1:-1:-1;42:43:0;-1:-1:-1:-;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1:-;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1:-;135:8:0;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1;97:46:0;-1:-1:-1;97:46:0;-1:-1:-1:-;-1:-1:-1;-1:-1:-1;-1:-1:-1;-1:-1:-1:-;-1:-1:-1;-1:-1:-1;-1:-1:-1\", \"pc_pos_map\": {\"41\": [7, 15, 7, 18], \"44\": [7, 4, 7, 12], \"46\": [6, 0, 7, 18], \"64\": [11, 11, 11, 19], \"71\": [10, 0, 11, 19], \"73\": [10, 0, 11, 19], \"0\": [1, 0, 11, 19]}, \"pc_ast_map\": {\"41\": [0, 16], \"44\": [0, 12], \"46\": [0, 6], \"64\": [0, 23], \"71\": [0, 20], \"73\": [0, 20], \"0\": [0, 0]}, \"pc_ast_map_item_keys\": [\"source_id\", \"node_id\"]}",
+      "userdoc": {}
+    }
+  },
+  "manifest": "ethpm/3",
+  "sources": {
+    "simple_storage.vy": {
+      "content": "# @version 0.4.1\n\nnum: uint256\n\n@external\ndef store(num: uint256):\n    self.num = num\n\n@external\ndef retrieve() -> uint256:\n    return self.num\n",
+      "urls": []
+    }
+  }
+}
